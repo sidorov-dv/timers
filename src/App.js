@@ -21,7 +21,7 @@ function App() {
         <>
           <Navigation />
           <Routes>
-            <Route path="/" element={<Header />} />
+            <Route path="/timers" element={<Header />} />
             <Route path="/countdown" element={<CountDownTimer />} />
             <Route path="/timer" element={<ClockTimer />} />
             <Route path="/animationtimer" element={<CountTimerAnimation />} />
