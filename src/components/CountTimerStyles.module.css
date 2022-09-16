@@ -1,0 +1,24 @@
+.circle_timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.break_text {
+  font-size: 3rem;
+  color: red;
+}
+
+.countdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.countdown p {
+  margin: 0;
+  padding: 0 5px;
+  color: rgb(0, 200, 0);
+  font-size: 3rem;
+  letter-spacing: 2px;
+  line-height: 1.25;
+}

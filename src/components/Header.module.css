@@ -1,0 +1,97 @@
+.video {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100vw;
+  z-index: 5;
+}
+
+.clock {
+  display: none;
+  max-height: 350px;
+}
+
+.clock .clock_content {
+  overflow: hidden;
+  border-radius: 20px;
+  padding: 0;
+}
+
+.greeting {
+  position: relative;
+  top: 200px;
+  z-index: 10;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(238, 179, 18);
+  text-align: center;
+  font-family: "Kanit", Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.prompt {
+  position: relative;
+  top: 200px;
+  z-index: 10;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(238, 179, 18);
+  text-align: center;
+  font-family: "Kanit", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media all and (max-width: 770px) {
+  .greeting {
+    top: 100px;
+    font-size: 3.75rem;
+  }
+  .prompt {
+    top: 100px;
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 501px), (max-height: 701px) {
+  .video {
+    display: none;
+  }
+  .greeting {
+    color: rgb(236, 214, 13);
+    top: 20px;
+    font-size: 2.5rem;
+  }
+  .prompt {
+    color: rgb(236, 214, 13);
+    top: 20px;
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 500px), (max-height: 700px) {
+  .text_info {
+    min-height: 250px;
+    margin: 10px 0;
+  }
+  .clock {
+    display: block;
+  }
+  .clock_content {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  .image {
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.7s ease-in-out;
+  }
+  .clock_content .image:hover {
+    transform: scale(1.8);
+    cursor: pointer;
+  }
+}

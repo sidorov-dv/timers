@@ -1,0 +1,93 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.clock {
+  text-align: center;
+  min-height: 170px;
+}
+
+.message {
+  padding-top: 20px;
+  color: red;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box_timer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 15px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: rgb(231, 155, 13);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.minutes,
+.seconds {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+}
+
+.btn_arr {
+  min-width: 100px;
+  transition: all 0.1s ease;
+}
+
+.btn_arr:active {
+  transform: scale(1.5);
+}
+
+.timer_25 {
+  font-size: 9rem;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.timer_5 {
+  font-size: 9rem;
+  color: red;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.controls {
+  margin-top: 50px;
+}
+
+@media all and (max-width: 500px) {
+  .message {
+    font-size: 3rem;
+  }
+
+  .minutes,
+  .seconds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
+  .timer_25 {
+    font-size: 6rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+  .timer_5 {
+    font-size: 6rem;
+    color: red;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+}
