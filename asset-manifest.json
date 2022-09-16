@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/timers/static/css/main.39279e49.css",
-    "main.js": "/timers/static/js/main.b1059102.js",
+    "main.js": "/timers/static/js/main.3c91edd4.js",
     "static/media/gears_gold.mp4": "/timers/static/media/gears_gold.819c97cbf0af75c2efa3.mp4",
     "static/media/HellsBells.mp3": "/timers/static/media/HellsBells.c0eb21920107c88676a8.mp3",
     "static/media/sandTimer.jpg": "/timers/static/media/sandTimer.be3b188b35401c60268b.jpg",
@@ -10,10 +10,10 @@
     "static/media/bootstrap-icons.woff2?": "/timers/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
     "index.html": "/timers/index.html",
     "main.39279e49.css.map": "/timers/static/css/main.39279e49.css.map",
-    "main.b1059102.js.map": "/timers/static/js/main.b1059102.js.map"
+    "main.3c91edd4.js.map": "/timers/static/js/main.3c91edd4.js.map"
   },
   "entrypoints": [
     "static/css/main.39279e49.css",
-    "static/js/main.b1059102.js"
+    "static/js/main.3c91edd4.js"
   ]
 }
