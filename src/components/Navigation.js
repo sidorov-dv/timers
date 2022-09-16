@@ -23,7 +23,7 @@ const Navigation = () => {
           </div>
           <li>
             <NavLink
-              to="/"
+              to="/timers"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -33,7 +33,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/countdown"
+              to="countdown"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -43,7 +43,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/timer"
+              to="timer"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -53,7 +53,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/animationtimer"
+              to="animationtimer"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -73,7 +73,7 @@ const Navigation = () => {
         <ul className="overlay-content" onClick={closeNavMenu}>
           <li>
             <NavLink
-              to="/"
+              to="/timers"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -83,7 +83,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/countdown"
+              to="countdown"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -93,7 +93,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/timer"
+              to="timer"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -103,7 +103,7 @@ const Navigation = () => {
           </li>
           <li>
             <NavLink
-              to="/animationtimer"
+              to="animationtimer"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }

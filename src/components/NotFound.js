@@ -7,7 +7,7 @@ const NotFound = () => {
   useEffect(() => {
     setTimeout(() => {
       if (shouldRedirect) {
-        navigate("/");
+        navigate("/timers");
       }
     }, 2000);
     // eslint-disable-next-line
