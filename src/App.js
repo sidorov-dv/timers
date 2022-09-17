@@ -21,10 +21,10 @@ function App() {
         <>
           <Navigation />
           <Routes>
-            <Route path="/timers" element={<Header />} />
-            <Route path="/countdown" element={<CountDownTimer />} />
-            <Route path="/timer" element={<ClockTimer />} />
-            <Route path="/animationtimer" element={<CountTimerAnimation />} />
+            <Route path="timers" element={<Header />} />
+            <Route path="countdown" element={<CountDownTimer />} />
+            <Route path="timer" element={<ClockTimer />} />
+            <Route path="animationtimer" element={<CountTimerAnimation />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </>

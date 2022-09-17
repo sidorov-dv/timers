@@ -23,7 +23,7 @@ const Navigation = () => {
           </div>
           <li>
             <NavLink
-              to="/timers"
+              to="timers"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
@@ -73,7 +73,7 @@ const Navigation = () => {
         <ul className="overlay-content" onClick={closeNavMenu}>
           <li>
             <NavLink
-              to="/timers"
+              to="timers"
               className={({ isActive }) =>
                 isActive ? "active_link" : "nav_link"
               }
